@@ -14,7 +14,6 @@ $third--font-color:#808080;
     justify-content: center;
 }
 html {
-    // width: 100vh;
     box-sizing: border-box;
     font: normal normal normal 24px/33px 'Open Sans';
     letter-spacing: 0px;
@@ -593,7 +592,6 @@ a{
     background: transparent url(images/footer_bck.svg) no-repeat;
     background-size: 3200px;
     background-position-x: -700px;
-    //margin-bottom:400px; //do wywalenia
     @include centerWithFlex();
     &_content{
         width: 100%;
@@ -1111,7 +1109,6 @@ a{
             z-index:-1;
             transform: rotate(90deg);
         }
-        // background-position-x: -1400px;
          &_content{
              margin-top: 100px;
              &_list{
